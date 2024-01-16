@@ -1,0 +1,9 @@
+.navbarList {
+    color: black;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: yellow;
+    margin: 0;
+    padding: 0;
+}
