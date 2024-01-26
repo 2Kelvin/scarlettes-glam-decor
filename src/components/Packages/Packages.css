@@ -1,5 +1,10 @@
-.packages {
-    background-color: tomato;
-    /* remove this height later on*/
-    height: 20vh;
+/* .packages {
+    background-color: inherit;
+} */
+
+.packages h2 {
+    text-align: center;
+    font-size: 2.4rem;
+    margin-bottom: 2rem;
+    font-family: 'WindSong', cursive;
 }

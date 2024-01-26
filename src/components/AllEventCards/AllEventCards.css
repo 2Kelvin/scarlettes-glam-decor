@@ -1,4 +1,10 @@
-.allEventCards{
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
+/* .allEventCards {
+    width: 100%;
+} */
+
+/* <----------- card icon -----------> */
+.cardIcon {
+    color: white;
+    height: 36px;
+    width: 36px;
 }
