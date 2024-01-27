@@ -1,5 +1,15 @@
 .bigBg {
-    background-color: blue;
-    min-height: 60vh;
-    height: 60vh;
+    height: 85vh;
+    background-image: url('./../../images/cool.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 2rem;
+    display: grid;
+    place-content: center;
+}
+
+.bigBg h2 {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 3rem;
 }
