@@ -1,5 +1,10 @@
-.feedback {
+.feedbackSection {
     background-color: greenyellow;
-    /* remove this later on */
-    height: 25vh;
+}
+
+.feedbackSection h2 {
+    text-align: center;
+    font-size: 2.4rem;
+    margin-bottom: 2rem;
+    font-family: 'WindSong', cursive;
 }
