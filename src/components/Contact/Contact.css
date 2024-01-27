@@ -1,5 +1,7 @@
 .contact {
-    background-color: orchid;
-    /* remove this later */
-    height: 20vh;
+    margin-bottom: 3rem;
+}
+
+.contact p {
+    text-align: center;
 }

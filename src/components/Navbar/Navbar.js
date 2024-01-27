@@ -7,7 +7,6 @@ export default function Navbar() {
             <ul className='navbarList'>
                 <li>HOME</li>
                 <li>PACKAGES</li>
-                {/* <li>SERVICES</li> */}
                 <li>FEEDBACK</li>
                 <li>CONTACT</li>
             </ul>
