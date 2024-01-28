@@ -3,6 +3,7 @@
     border: 1px solid black;
     margin: 0.5rem;
     min-width: 17rem;
+    border-radius: 1rem;
 }
 
 .feedbackHeader {

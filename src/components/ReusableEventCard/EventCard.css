@@ -8,6 +8,7 @@
     align-items: end;
     justify-content: center;
     margin-bottom: 2rem;
+    border-radius: 1rem;
 }
 
 /* <----------- event name & icon -----------> */
@@ -19,6 +20,10 @@
     align-items: center;
     justify-content: center;
     padding: 0.2rem 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 1rem;
+    font-family: 'Inter', sans-serif;
 }
 
 .eventNameAndIcon h3 {

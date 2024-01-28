@@ -1,0 +1,26 @@
+.gallery {
+    z-index: 2;
+    height: 90vh;
+    width: 90vw;
+    border-radius: 2rem;
+    margin: 0;
+    padding: 0;
+}
+
+.gallery .closeGalleryDiv {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.gallery .closeGalleryDiv .iconClose {
+    height: 5rem;
+    width: 5rem;
+}
+
+
+.gallery .sliderButtons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
