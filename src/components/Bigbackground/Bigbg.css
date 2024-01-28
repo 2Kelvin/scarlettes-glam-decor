@@ -1,5 +1,5 @@
 .bigBg {
-    height: 88vh;
+    height: 91vh;
     background-image: url('./../../images/cool.jpg');
     background-repeat: no-repeat;
     background-position: center;
@@ -10,6 +10,6 @@
 }
 
 .bigBg h2 {
-    color: rgba(255, 255, 255, 0.6);
-    font-size: 3rem;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 4rem;
 }

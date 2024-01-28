@@ -1,15 +1,12 @@
+// import MenuIcon from '../MenuIcon/MenuIcon';
 import './Navbar.css';
 
 export default function Navbar() {
     return (
         <nav>
-            {/* insert scarlette */}
-            <ul className='navbarList'>
-                <li>HOME</li>
-                <li>PACKAGES</li>
-                <li>FEEDBACK</li>
-                <li>CONTACT</li>
-            </ul>
+            {/* replace this h2 with website logo */}
+            <h2>Scarlette</h2>
+            {/* <MenuIcon /> */}
         </nav>
     );
 }

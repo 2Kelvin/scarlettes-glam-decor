@@ -2,17 +2,36 @@
     padding: 0.5rem;
     border: 1px solid black;
     margin: 0.5rem;
+    min-width: 17rem;
 }
 
 .feedbackHeader {
     display: flex;
-    justify-content: space-between;
+    align-items: center;
 }
 
-.customerImage {
+.feedbackHeader .customerImage {
     border-radius: 50%;
-    height: 5rem;
-    width: 5rem;
+    height: 4.5rem;
+    width: 4.5rem;
     display: grid;
     place-content: center;
+    margin-right: 2rem;
+}
+
+.feedbackHeader .customerImage p {
+    font-size: 1.5rem;
+}
+
+.feedbackHeader .customerNameYear p {
+    margin: 0;
+    margin: 0.5rem 0;
+}
+
+.feedbackHeader .customerNameYear p:first-of-type {
+    font-weight: bold;
+}
+
+.feedbackHeader .customerNameYear p:last-of-type {
+    font-size: 0.8rem;
 }

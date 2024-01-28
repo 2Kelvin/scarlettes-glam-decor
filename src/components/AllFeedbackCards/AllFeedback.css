@@ -1,3 +1,4 @@
 .allFeedback {
     display: flex;
+    overflow: hidden;
 }

@@ -7,7 +7,7 @@ export default function ReusableFeedbackCard({ customerName, year, customerColor
         <div className='feedbackCard'>
             <div className='feedbackHeader'>
                 <div className='customerImage' style={{ backgroundColor: customerColor }}>
-                    {firstNameLetter}
+                    <p>{firstNameLetter}</p>
                 </div>
                 <div className='customerNameYear'>
                     <p>{customerName}</p>
