@@ -1,19 +1,24 @@
 import './GallerySlider.css';
 import { TfiClose } from "react-icons/tfi";
-import { GrNext, GrPrevious } from "react-icons/gr";
+import { MdSkipPrevious, MdSkipNext } from "react-icons/md";
+import pic from './../../images/cool.jpg';
 
 
-export default function GallerySlider() {
+export default function GallerySlider({ handleDeactivateGallery, imgSrc, imgAlt }) {
     return (
         <div className='gallery'>
             <div className='closeGalleryDiv'>
-                <TfiClose className='iconClose' />
+                <TfiClose
+                    className='iconClose'
+                    onClick={handleDeactivateGallery}
+                />
             </div>
             <div className='sliderButtons'>
-                <GrPrevious />
-                <GrNext />
+                <MdSkipPrevious className='iconSliders' />
+                <MdSkipNext className='iconSliders' />
             </div>
-            <img src='' alt='' />
+            {/* replace 'pic' below with imgSrc */}
+            <img src={pic} alt={imgAlt} />
         </div>
     );
 }
