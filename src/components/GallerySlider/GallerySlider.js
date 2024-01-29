@@ -1,32 +1,58 @@
 import './GallerySlider.css';
 import { TfiClose } from "react-icons/tfi";
 import { MdSkipPrevious, MdSkipNext } from "react-icons/md";
-import pic from './../../images/cool.jpg';
 import { useState } from 'react';
 
 
-export default function GallerySlider({ handleDeactivateGallery, picsData }) {
+export default function GallerySlider({ handleDeactivateGallery, picsData, nameOfEvent }) {
     const [eachPicIndex, setEachPicIndex] = useState(0);
     let onePicture = picsData[eachPicIndex];
 
-    // picsData -> is an array of picture objects
+    const cantGoNext = eachPicIndex === picsData.length - 1;
+    const cantGoPrev = eachPicIndex === 0;
+
+    function handlePrevImage() {
+        if (!cantGoPrev) {
+            setEachPicIndex(eachPicIndex - 1);
+        }
+    }
+
+    function handleNextImage() {
+        if (!cantGoNext) {
+            setEachPicIndex(eachPicIndex + 1);
+        }
+    }
 
     return (
         <div className='gallery'>
-            {/* close gallery button */}
+
             <div className='closeGalleryDiv'>
                 <TfiClose
                     className='iconClose'
                     onClick={handleDeactivateGallery}
                 />
             </div>
-            {/* slider buttons */}
+
             <div className='sliderButtons'>
-                <MdSkipPrevious className='iconSliders' onClick={() => setEachPicIndex (eachPicIndex - 1)} />
-                <MdSkipNext className='iconSliders' onClick={() => setEachPicIndex(eachPicIndex + 1)} />
+                <button disabled={cantGoPrev}>
+                    <MdSkipPrevious
+                        className='iconSliders'
+                        onClick={handlePrevImage}
+                    />
+                </button>
+                <button disabled={cantGoNext}>
+                    <MdSkipNext
+                        className='iconSliders'
+                        onClick={handleNextImage}
+                    />
+                </button>
             </div>
-            {/* image */}
+
             <img src={onePicture.src} alt={onePicture.alt} />
+
+            <p className='imgDetails'>
+                {`${nameOfEvent}: ${eachPicIndex}/${picsData.length}`}
+            </p>
         </div>
     );
 }

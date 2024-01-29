@@ -6,31 +6,14 @@ import jaguar from './images/picnics/jaguar.jpg';
 import world from './images/picnics/world.jpg';
 
 const weddingPictures = [
-    {
-        id: 1,
-        src: fox,
-        alt: 'Wedding photo'
-    },
-    {
-        id: 2,
-        src: whale,
-        alt: 'Wedding photo'
-    },
+    { id: 1, src: fox, alt: 'Wedding photo' },
+    { id: 2, src: whale, alt: 'Wedding photo' },
 ];
 
 const picnicPictures = [
-    {
-        id: 1,
-        src: jaguar,
-        alt: 'Picnics photo'
-    },
-    {
-        id: 2,
-        src: world,
-        alt: 'Picnics photo'
-    },
+    { id: 1, src: jaguar, alt: 'Picnics photo' },
+    { id: 2, src: world, alt: 'Picnics photo' },
 ];
-
 
 
 export const picturesData = [

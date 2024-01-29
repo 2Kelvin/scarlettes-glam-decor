@@ -2,7 +2,7 @@ import './EventCard.css';
 import { picturesData } from '../../eventPicturesData';
 import GallerySlider from '../GallerySlider/GallerySlider';
 import { useState } from 'react';
-// import { weddings } from '../../data/weddingPics';
+
 
 export default function ReusableEventCard({ eventBgImage, eventIcon, eventName }) {
     const [showGallery, setShowGAllery] = useState(false);
@@ -21,6 +21,7 @@ export default function ReusableEventCard({ eventBgImage, eventIcon, eventName }
             if (nameOfEvent.toLowerCase() === eachEventData.name) {
                 clickedEventPics = eachEventData.data;
             }
+            // else add a component to pop up saying no pictures for the requested event
         }
         return clickedEventPics;
     }
@@ -34,6 +35,7 @@ export default function ReusableEventCard({ eventBgImage, eventIcon, eventName }
             {showGallery && <GallerySlider
                 picsData={getClickedEventPics(eventName)}
                 handleDeactivateGallery={handleDeactivateGallery}
+                nameOfEvent={eventName}
             />}
         </div>
     );
