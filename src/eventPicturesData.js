@@ -1,14 +1,39 @@
-// import all pics & give them variables
-// group pics per event type: group them in arrays per event name
-// imgAlt -> eventArray name + 'event'
-// once every reusableeventcard is clicked, use its eventName variable to query the pictures array for that event
+// <----------------- weddings images ----------------->
+import fox from './images/weddings/fox.jpg';
+import whale from './images/weddings/whale.jpg';
+// <----------------- picnics images ----------------->
+import jaguar from './images/picnics/jaguar.jpg';
+import world from './images/picnics/world.jpg';
 
-// import all weddings pic here...followed by each event and so on
-
-const weddings = [
+const weddingPictures = [
     {
         id: 1,
-        imgSrc: '',
-        imgAlt: '',
+        src: fox,
+        alt: 'Wedding photo'
     },
+    {
+        id: 2,
+        src: whale,
+        alt: 'Wedding photo'
+    },
+];
+
+const picnicPictures = [
+    {
+        id: 1,
+        src: jaguar,
+        alt: 'Picnics photo'
+    },
+    {
+        id: 2,
+        src: world,
+        alt: 'Picnics photo'
+    },
+];
+
+
+
+export const picturesData = [
+    { name: 'weddings', data: weddingPictures },
+    { name: 'picnics', data: picnicPictures },
 ];
