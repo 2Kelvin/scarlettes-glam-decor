@@ -1,9 +1,10 @@
 .feedbackCard {
     padding: 0.5rem;
-    border: 1px solid black;
     margin: 0.5rem;
     min-width: 17rem;
     border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: #fff;
 }
 
 .feedbackHeader {

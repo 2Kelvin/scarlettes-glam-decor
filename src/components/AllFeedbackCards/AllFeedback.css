@@ -1,4 +1,14 @@
 .allFeedback {
     display: flex;
-    overflow: hidden;
+    animation: 18s ease-in-out 0s infinite alternate bounce;
+}
+
+@keyframes bounce {
+    from {
+        transform: translateX(-149vw);
+    }
+
+    to {
+        transform: translateX(1vw);
+    }
 }
