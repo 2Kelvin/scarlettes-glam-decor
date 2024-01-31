@@ -8,23 +8,23 @@ export const reviewData = [
     },
     {
         id: 2,
-        name: 'Mary Mary',
+        name: 'Claire Bukoka',
         reviewYear: 2021,
         color: 'orange',
-        message: 'I loved the work these guys did for my event, super impressed! I recommend 100%!'
+        message: 'I\'ve worked with these guys for 2 years straight and honestly I don\'t plan on looking elsewhere ever!'
     },
     {
         id: 3,
-        name: 'Mary Mary',
+        name: 'Jude Achebe',
         reviewYear: 2021,
         color: 'pink',
-        message: 'I loved the work these guys did for my event, super impressed! I recommend 100%!'
+        message: 'Lovely just lovely. Couldn\'t have pictured my wedding looking any better!'
     },
     {
         id: 4,
-        name: 'Mary Mary',
+        name: 'April Alunge',
         reviewYear: 2021,
         color: 'teal',
-        message: 'I loved the work these guys did for my event, super impressed! I recommend 100%!'
+        message: 'From the customer service to the actual delivery, these guys really delivered!'
     },
 ];
