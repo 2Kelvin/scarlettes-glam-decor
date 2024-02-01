@@ -5,7 +5,7 @@ import AllFeedback from '../AllFeedbackCards/AllFeedback';
 export default function Feedback() {
     return (
         <section className='feedbackSection'>
-            <h2>Feedback</h2>
+            <h2 id='feedbackDecor'>Feedback</h2>
             <AllFeedback />
         </section>
     );

@@ -13,7 +13,7 @@
 
 /* <----------- event name & icon -----------> */
 .eventNameAndIcon {
-    background-color: palevioletred;
+    background-color: #FE8387; /*can also use palevioletred*/
     width: 25em;
     margin-bottom: 2rem;
     display: flex;

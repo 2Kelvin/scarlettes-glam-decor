@@ -6,7 +6,7 @@ export default function Packages() {
 
     return (
         <section className='packages'>
-            <h2>Our Packages</h2>
+            <h2 id='packagesDecor'>Our Packages</h2>
             <AllEventCards/>
         </section>
     );
