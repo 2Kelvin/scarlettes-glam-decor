@@ -19,8 +19,21 @@
         gap: 1rem;
     }
 }
+
 @media screen and (min-width: 1200px) {
     .allEventCards {
         gap: 2rem;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    .allEventCards {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (min-width: 1800px) {
+    .allEventCards {
+        grid-template-columns: repeat(4, 1fr);
     }
 }

@@ -25,7 +25,29 @@
 
 @media screen and (min-width: 1330px) {
     .packages {
-        margin: 0 3.5rem;
+        margin: 0 4rem;
         margin-bottom: 3rem;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .packages {
+        margin: 0 5rem;
+        margin-bottom: 3rem;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    .packages {
+        margin: 0;
+        width: 86%;
+        margin: auto;
+        margin-bottom: 5rem;
+    }
+}
+
+@media screen and (min-width: 1800px) {
+    .packages {
+        width: 75%;
     }
 }

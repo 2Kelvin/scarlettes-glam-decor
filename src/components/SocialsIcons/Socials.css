@@ -26,12 +26,24 @@
 
 @media screen and (min-width: 1200px) {
     .mediaIconsDiv {
-        width: 45%;
+        width: 35%;
     }
 }
 
 @media screen and (min-width: 1330px) {
     .mediaIconsDiv {
         width: 30%;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    .mediaIconsDiv {
+        width: 25%;
+    }
+}
+
+@media screen and (min-width: 1800px) {
+    .mediaIconsDiv {
+        width: 20%;
     }
 }

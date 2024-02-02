@@ -30,3 +30,16 @@
         gap: 2rem;
     }
 }
+
+@media screen and (min-width: 1500px) {
+    .allFeedback {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+    }
+}
+@media screen and (min-width: 1800px) {
+    .allFeedback {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 1rem;
+    }
+}

@@ -51,7 +51,26 @@
     .reusableEventCard {
         margin-bottom: 0;
     }
+
     .eventNameAndIcon {
         width: 25em;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .eventNameAndIcon {
+        width: 36em;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    .eventNameAndIcon {
+        width: 28em;
+    }
+}
+
+@media screen and (min-width: 1800px) {
+    .eventNameAndIcon {
+        width: 22em;
     }
 }

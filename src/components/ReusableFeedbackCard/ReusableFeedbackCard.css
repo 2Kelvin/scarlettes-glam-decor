@@ -45,8 +45,29 @@
         padding: 1.5rem;
     }
 }
+
 @media screen and (min-width: 1200px) {
     .feedbackCard {
         padding: 2rem;
+    }
+
+    .feedbackHeader {
+        margin-bottom: 1.7rem;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    .feedbackCard {
+        padding: 1rem;
+    }
+
+    .feedbackHeader {
+        margin-bottom: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 1800px) {
+    .feedbackCard {
+        padding: 1.2rem;
     }
 }

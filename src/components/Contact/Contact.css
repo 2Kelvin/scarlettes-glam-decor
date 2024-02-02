@@ -6,3 +6,11 @@
 .contact p {
     text-align: center;
 }
+
+
+/* +++++++++++++++++++++++ MEDIA QUERIES +++++++++++++++++++++++ */
+@media screen and (min-width: 1500px) {
+    .contact {
+        margin-bottom: 5rem;
+    }
+}

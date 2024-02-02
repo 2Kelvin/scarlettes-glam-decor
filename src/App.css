@@ -23,3 +23,10 @@ h2 {
     margin-bottom: 3rem;
   }
 }
+
+@media screen and (min-width: 1500px) {
+  h2 {
+    font-size: 4rem;
+    margin-bottom: 4rem;
+  }
+}
