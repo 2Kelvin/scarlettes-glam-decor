@@ -1,0 +1,22 @@
+.popUp {
+    display: flex;
+    z-index: 100;
+    position: fixed;
+    bottom: 0.1rem;
+    right: 0.8rem;
+    align-items: center;
+}
+
+.popUp .chat {
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: white;
+    padding: 0.7rem 1.2rem;
+    font-weight: 500;
+    margin-right: 0.5rem;
+}
+
+.popUp .whatsapp {
+    height: 3rem;
+    width: 3rem;
+}

@@ -5,6 +5,8 @@ import Packages from './components/Packages/Packages';
 import Feedback from './components/Feedback/Feedback';
 import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
+import WhatsappPopUp from './components/WhatsappPopUp/whatsapp';
+
 
 function App() {
   return (
@@ -15,6 +17,7 @@ function App() {
       {/* <Feedback /> */}
       <Contact />
       <Footer />
+      <WhatsappPopUp />
     </div>
   );
 }
