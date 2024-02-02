@@ -51,7 +51,7 @@ export default function GallerySlider({ handleDeactivateGallery, picsData, nameO
             <img src={onePicture.src} alt={onePicture.alt} />
 
             <p className='imgDetails'>
-                {`${nameOfEvent}: ${eachPicIndex}/${picsData.length}`}
+                {`${nameOfEvent}: ${eachPicIndex + 1}/${picsData.length}`}
             </p>
         </div>
     );

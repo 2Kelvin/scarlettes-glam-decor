@@ -5,10 +5,10 @@
 
 @keyframes bounce {
     from {
-        transform: translateX(-145vw);
+        transform: translateX(-37rem);
     }
 
     to {
-        transform: translateX(1vw);
+        transform: translateX(0.5rem);
     }
 }

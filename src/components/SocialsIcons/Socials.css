@@ -11,3 +11,8 @@
     width: 3.5rem;
     cursor: pointer;
 }
+
+.iconMedia:active {
+    transform: translateY(-0.5rem);
+    transition: all 0.1s ease;
+}
