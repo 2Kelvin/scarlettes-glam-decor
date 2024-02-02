@@ -8,13 +8,11 @@ nav {
 nav .websiteLogo {
     height: 4rem;
     width: 7rem;
-    display: block;
 }
 
 nav .menuLinks {
     display: flex;
     list-style: none;
-    display: flex;
     padding: 0;
     margin: 0;
 }
@@ -41,3 +39,14 @@ nav .menuLinks a:hover {
     border-bottom: 1px solid #FE8387;
     color: #FE8387;
 }
+
+/* +++++++++++++++++++++++ MEDIA QUERIES +++++++++++++++++++++++ */
+/* @media screen and (min-width: 640px) {
+    nav .websiteLogo {
+        flex: 1;
+    }
+
+    nav .menuLinks {
+        flex: 2;
+    }
+} */

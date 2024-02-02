@@ -16,3 +16,22 @@
 .iconMedia:hover {
     transform: translateY(-0.7rem);
 }
+
+/* +++++++++++++++++++++++ MEDIA QUERIES +++++++++++++++++++++++ */
+@media screen and (min-width: 700px) {
+    .mediaIconsDiv {
+        width: 60%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .mediaIconsDiv {
+        width: 45%;
+    }
+}
+
+@media screen and (min-width: 1330px) {
+    .mediaIconsDiv {
+        width: 30%;
+    }
+}

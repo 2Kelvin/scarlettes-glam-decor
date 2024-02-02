@@ -1,7 +1,6 @@
 .feedbackCard {
     padding: 0.8rem;
     margin: 0.5rem;
-    /* min-width: 16rem; */
     border-radius: 1rem;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     background-color: #ffffffad;
@@ -37,4 +36,17 @@
 
 .feedbackHeader .customerNameYear p:last-of-type {
     font-size: 0.8rem;
+}
+
+
+/* +++++++++++++++++++++++ MEDIA QUERIES +++++++++++++++++++++++ */
+@media screen and (min-width: 900px) {
+    .feedbackCard {
+        padding: 1.5rem;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .feedbackCard {
+        padding: 2rem;
+    }
 }

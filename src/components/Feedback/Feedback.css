@@ -3,3 +3,14 @@
     margin-bottom: 3rem;
     overflow: hidden;
 }
+
+
+/* +++++++++++++++++++++++ MEDIA QUERIES +++++++++++++++++++++++ */
+@media screen and (min-width: 1200px) {
+    .feedbackSection {
+        margin: 0;
+        width: 70%;
+        margin: auto;
+        margin-bottom: 3rem;
+    }
+}

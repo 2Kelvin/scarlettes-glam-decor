@@ -1,6 +1,32 @@
 .allFeedback {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    /* background-color: lightcoral; */
     padding: 0.5rem;
+}
+
+
+/* +++++++++++++++++++++++ MEDIA QUERIES +++++++++++++++++++++++ */
+@media screen and (min-width: 700px) {
+    .allFeedback {
+        padding: 0.8rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .allFeedback {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 0.5rem;
+    }
+}
+
+@media screen and (min-width: 850px) {
+    .allFeedback {
+        gap: 1rem;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .allFeedback {
+        gap: 2rem;
+    }
 }
