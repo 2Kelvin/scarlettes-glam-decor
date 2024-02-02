@@ -14,7 +14,7 @@ function App() {
       <Navbar />
       <Bigbg />
       <Packages />
-      {/* <Feedback /> */}
+      <Feedback />
       <Contact />
       <Footer />
       <WhatsappPopUp />

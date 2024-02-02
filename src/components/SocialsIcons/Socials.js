@@ -7,9 +7,15 @@ import tiktok from './../../images/icons/tiktok.png';
 export default function Socials() {
     return (
         <div className='mediaIconsDiv'>
-            <img src={fb} alt='Facebook' className='iconMedia' />
-            <img src={tiktok} alt='Tiktok' className='iconMedia' />
-            <img src={insta} alt='Instagram' className='iconMedia' />
+            <a href=''>
+                <img src={fb} alt='Facebook' className='iconMedia' />
+            </a>
+            <a href=''>
+                <img src={tiktok} alt='Tiktok' className='iconMedia' />
+            </a>
+            <a href=''>
+                <img src={insta} alt='Instagram' className='iconMedia' />
+            </a>
         </div>
     );
 }

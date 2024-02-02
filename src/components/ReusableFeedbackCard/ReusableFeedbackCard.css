@@ -1,7 +1,7 @@
 .feedbackCard {
-    padding: 0.5rem;
+    padding: 0.8rem;
     margin: 0.5rem;
-    min-width: 16rem;
+    /* min-width: 16rem; */
     border-radius: 1rem;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     background-color: #ffffffad;
@@ -15,8 +15,8 @@
 
 .feedbackHeader .customerImage {
     border-radius: 50%;
-    height: 4.5rem;
-    width: 4.5rem;
+    height: 4.1rem;
+    width: 4.1rem;
     display: grid;
     place-content: center;
     margin-right: 2rem;

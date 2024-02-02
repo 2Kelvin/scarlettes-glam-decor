@@ -1,13 +1,27 @@
-.popUp {
-    display: flex;
+.thePopUpContainer {
     z-index: 100;
     position: fixed;
     bottom: 0.1rem;
     right: 0.8rem;
+}
+
+.thePopUpContainer .closePopUp {
+    text-align: right;
+    padding-right: 0.2rem;
+}
+
+.thePopUpContainer .closePopUp .cancelPop {
+    height: 1.1rem;
+    width: 1.1rem;
+    cursor: pointer;
+}
+
+.thePopUpContainer .popUp {
+    display: flex;
     align-items: center;
 }
 
-.popUp .chat {
+.thePopUpContainer .popUp .chat {
     border-radius: 1rem;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     background-color: white;
@@ -16,7 +30,11 @@
     margin-right: 0.5rem;
 }
 
-.popUp .whatsapp {
+.thePopUpContainer .popUp .whatsapp {
     height: 3rem;
     width: 3rem;
+}
+
+.noShow {
+    display: none;
 }

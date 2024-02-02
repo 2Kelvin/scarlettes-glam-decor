@@ -1,14 +1,6 @@
 .allFeedback {
-    display: flex;
-    animation: 18s ease-in-out 0s infinite alternate bounce;
-}
-
-@keyframes bounce {
-    from {
-        transform: translateX(-37rem);
-    }
-
-    to {
-        transform: translateX(0.5rem);
-    }
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    /* background-color: lightcoral; */
+    padding: 0.5rem;
 }

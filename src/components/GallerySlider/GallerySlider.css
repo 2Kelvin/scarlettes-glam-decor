@@ -1,6 +1,6 @@
 .gallery {
     z-index: 10;
-    height: 100vh;
+    height: calc(100vh - 3rem);
     width: 90vw;
     border-top-right-radius: 1rem;
     border-top-left-radius: 1rem;
@@ -28,7 +28,7 @@
 }
 
 .gallery .sliderButtons {
-    margin-top: 3rem;
+    margin-top: 2rem;
 }
 
 .gallery .sliderButtons {
