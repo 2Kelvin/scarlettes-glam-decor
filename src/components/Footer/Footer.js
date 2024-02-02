@@ -6,7 +6,7 @@ export default function Footer() {
             <small>
                 Built by <a href='https://github.com/2Kelvin' target='blank'>Rocketman</a>
             </small>
-            <small>{new Date().getFullYear()}</small>
+            <small>&copy; {new Date().getFullYear()}</small>
         </footer>
     );
 }
