@@ -12,6 +12,7 @@
 .bigBg h2 {
     color: rgba(255, 255, 255, 0.8);
     font-size: 2rem;
+    width: 99%;
 }
 
 /* +++++++++++++++++++++++ MEDIA QUERIES +++++++++++++++++++++++ */
