@@ -1,7 +1,7 @@
 .thePopUpContainer {
     z-index: 100;
     position: fixed;
-    bottom: 0.1rem;
+    bottom: 0.5rem;
     right: 0.8rem;
 }
 
