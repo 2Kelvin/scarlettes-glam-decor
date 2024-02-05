@@ -1,4 +1,3 @@
-// import MenuIcon from '../MenuIcon/MenuIcon';
 import './Navbar.css';
 import logo from './../../images/logo.png';
 import { useState } from 'react';

@@ -18,6 +18,11 @@
 }
 
 /* +++++++++++++++++++++++ MEDIA QUERIES +++++++++++++++++++++++ */
+@media screen and (min-width: 600px) {
+    .mediaIconsDiv {
+        width: 70%;
+    }
+}
 @media screen and (min-width: 700px) {
     .mediaIconsDiv {
         width: 60%;
