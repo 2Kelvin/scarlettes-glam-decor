@@ -12,7 +12,7 @@
 
 
 /* +++++++++++++++++++++++ MEDIA QUERIES +++++++++++++++++++++++ */
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 900px) {
     .allEventCards {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -26,7 +26,7 @@
     }
 }
 
-@media screen and (min-width: 1500px) {
+@media screen and (min-width: 1450px) {
     .allEventCards {
         grid-template-columns: repeat(3, 1fr);
     }
