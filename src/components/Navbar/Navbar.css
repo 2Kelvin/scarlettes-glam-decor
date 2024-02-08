@@ -99,6 +99,7 @@ nav .topMenuIcon {
         text-decoration: none;
         color: #FE8387;
         border: 1px solid #FE8387;
+        border-radius: 1.2rem;
     }
 }
 

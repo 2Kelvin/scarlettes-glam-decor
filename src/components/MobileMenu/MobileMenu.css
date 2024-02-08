@@ -4,8 +4,8 @@
     top: 4rem;
     right: 0;
     z-index: 100;
-    width: 11rem;
-    height: 19rem;
+    width: 11.5rem;
+    height: 18rem;
     display: grid;
     place-content: center;
     border-bottom-left-radius: 1rem;
@@ -17,11 +17,11 @@
     text-decoration: none;
     color: black;
     margin-bottom: 1rem;
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-weight: 550;
-    padding: 0.8rem;
+    padding: 0.8rem 1rem;
     border: 1px solid #eee;
-    border-radius: 1rem;
+    border-radius: 1.5rem;
 }
 
 .mobileMenu a:last-of-type {
