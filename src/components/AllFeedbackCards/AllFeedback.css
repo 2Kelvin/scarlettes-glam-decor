@@ -8,11 +8,11 @@
 /* +++++++++++++++++++++++ MEDIA QUERIES +++++++++++++++++++++++ */
 @media screen and (min-width: 648px) {
     .allFeedback {
-        padding: 0.8rem 3rem;
+        padding: 0.8rem 1rem;
     }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 700px) {
     .allFeedback {
         grid-template-columns: repeat(2, 1fr);
         padding: 0.5rem;
@@ -22,21 +22,17 @@
 @media screen and (min-width: 850px) {
     .allFeedback {
         gap: 1rem;
+        padding: 0.5rem 1rem;
     }
 }
 
 @media screen and (min-width: 1200px) {
     .allFeedback {
-        gap: 2rem;
-    }
-}
-
-@media screen and (min-width: 1500px) {
-    .allFeedback {
         grid-template-columns: repeat(3, 1fr);
         gap: 1rem;
     }
 }
+
 @media screen and (min-width: 1800px) {
     .allFeedback {
         grid-template-columns: repeat(4, 1fr);
