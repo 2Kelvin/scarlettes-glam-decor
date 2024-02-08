@@ -1,7 +1,7 @@
 import './GallerySlider.css';
 import { TfiClose } from "react-icons/tfi";
-import { MdSkipPrevious, MdSkipNext } from "react-icons/md";
 import { useState } from 'react';
+import { MdOutlineNavigateNext, MdOutlineNavigateBefore } from "react-icons/md";
 
 
 export default function GallerySlider({ handleDeactivateGallery, picsData, nameOfEvent }) {
@@ -35,13 +35,13 @@ export default function GallerySlider({ handleDeactivateGallery, picsData, nameO
 
             <div className='sliderButtons'>
                 <button disabled={cantGoPrev}>
-                    <MdSkipPrevious
+                    <MdOutlineNavigateBefore
                         className='iconSliders'
                         onClick={handlePrevImage}
                     />
                 </button>
                 <button disabled={cantGoNext}>
-                    <MdSkipNext
+                    <MdOutlineNavigateNext
                         className='iconSliders'
                         onClick={handleNextImage}
                     />
