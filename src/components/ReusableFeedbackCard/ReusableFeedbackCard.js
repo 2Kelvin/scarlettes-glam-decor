@@ -1,3 +1,4 @@
+import Stars from '../Stars/Stars';
 import './ReusableFeedbackCard.css';
 
 export default function ReusableFeedbackCard({ customerName, year, customerColor, theReview }) {
@@ -14,6 +15,7 @@ export default function ReusableFeedbackCard({ customerName, year, customerColor
                     <p>{year}</p>
                 </div>
             </div>
+            <Stars />
             <p>{theReview}</p>
         </div>
     );

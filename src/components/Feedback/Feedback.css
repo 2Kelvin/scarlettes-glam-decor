@@ -9,7 +9,7 @@
 @media screen and (min-width: 1200px) {
     .feedbackSection {
         margin: 0;
-        width: 70%;
+        width: 65%;
         margin: auto;
         margin-bottom: 3rem;
     }
@@ -18,5 +18,6 @@
 @media screen and (min-width: 1500px) {
     .feedbackSection {
         margin-bottom: 5rem;
+        width: 70%;
     }
 }

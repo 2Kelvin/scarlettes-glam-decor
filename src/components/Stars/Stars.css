@@ -1,0 +1,10 @@
+.starsDiv .starIcon {
+    fill: #ffa900;
+    height: 1.2rem;
+    width: 1.2rem;
+    margin-right: 0.1rem;
+}
+
+.starsDiv .starIcon:last-of-type {
+    margin-right: 0;
+}

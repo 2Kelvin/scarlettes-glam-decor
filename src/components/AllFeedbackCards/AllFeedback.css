@@ -6,9 +6,9 @@
 
 
 /* +++++++++++++++++++++++ MEDIA QUERIES +++++++++++++++++++++++ */
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 648px) {
     .allFeedback {
-        padding: 0.8rem;
+        padding: 0.8rem 3rem;
     }
 }
 
