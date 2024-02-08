@@ -38,3 +38,11 @@
 .noShow {
     display: none;
 }
+
+
+/* +++++++++++++++++++++++ MEDIA QUERIES +++++++++++++++++++++++ */
+@media screen and (min-width: 1200px) {
+    .thePopUpContainer {
+        bottom: 2rem;
+    }
+}
