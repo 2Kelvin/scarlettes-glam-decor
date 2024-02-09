@@ -23,6 +23,7 @@
         width: 70%;
     }
 }
+
 @media screen and (min-width: 700px) {
     .mediaIconsDiv {
         width: 60%;
@@ -32,6 +33,11 @@
 @media screen and (min-width: 1200px) {
     .mediaIconsDiv {
         width: 35%;
+    }
+
+    .iconMedia {
+        height: 4rem;
+        width: 4rem;
     }
 }
 
