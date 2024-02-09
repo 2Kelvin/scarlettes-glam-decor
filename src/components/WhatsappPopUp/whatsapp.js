@@ -18,7 +18,7 @@ export default function WhatsappPopUp() {
             </div>
             <div className='popUp'>
                 <p className='chat'>Chat with us</p>
-                <a href='https://wa.me/254772775311' target='blank'>
+                <a href='https://wa.me/254706060096' target='blank'>
                     <img src={whatsapp} alt='Whatsapp' className='whatsapp' />
                 </a>
             </div>
