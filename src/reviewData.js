@@ -4,7 +4,7 @@ export const reviewData = [
         name: 'Ruphas Ndungu',
         reviewYear: 2021,
         color: '#00a6fb',
-        message: 'Very professional and innovative. Everyone loved the uniqueness the decor done on my proposal day. God bless you!'
+        message: 'Very professional and innovative. Everyone loved the uniqueness of the decor done on my proposal day. God bless you!'
     },
     {
         id: 2,
