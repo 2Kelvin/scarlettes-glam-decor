@@ -58,7 +58,7 @@ export const reviewData = [
     },
     {
         id: 9,
-        name: 'Phyll Moraa',
+        name: 'Phyll',
         reviewYear: 2023,
         color: '#ff7b00',
         message: 'Thank you for a job well done.'
