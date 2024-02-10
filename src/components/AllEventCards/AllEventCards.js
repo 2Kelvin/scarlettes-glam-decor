@@ -5,6 +5,9 @@ import { FaGraduationCap, FaChampagneGlasses } from "react-icons/fa6";
 import { LiaBirthdayCakeSolid } from "react-icons/lia";
 import { MdOutlineCorporateFare } from "react-icons/md";
 import { BsCalendarDateFill } from "react-icons/bs";
+import { FaGifts } from "react-icons/fa";
+// import { PiForkKnifeFill } from "react-icons/pi";
+import { GiFlowerTwirl } from "react-icons/gi";
 // importing event background images
 import wedBg from './../../images/weddings/wedding5.jpg';
 import picnBg from './../../images/picnics/picnic3.jpg';
@@ -63,12 +66,12 @@ export default function AllEventCards() {
             />
             <ReusableEventCard
                 eventBgImage={bridalBg}
-                eventIcon={<MdOutlineCorporateFare className='cardIcon' />}
+                eventIcon={<FaGifts className='cardIcon' />}
                 eventName={'Bridal Showers'}
             />
             <ReusableEventCard
                 eventBgImage={tableSetBg}
-                eventIcon={<MdOutlineCorporateFare className='cardIcon' />}
+                eventIcon={<GiFlowerTwirl className='cardIcon' />}
                 eventName={'Table Setups'}
             />
         </div>
