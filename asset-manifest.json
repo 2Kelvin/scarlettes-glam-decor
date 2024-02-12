@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/website-scarlettes-glam-decor/static/css/main.e66ff6fa.css",
-    "main.js": "/website-scarlettes-glam-decor/static/js/main.55f777a2.js",
+    "main.css": "/website-scarlettes-glam-decor/static/css/main.645942d5.css",
+    "main.js": "/website-scarlettes-glam-decor/static/js/main.7a721b53.js",
     "static/js/787.c83035d8.chunk.js": "/website-scarlettes-glam-decor/static/js/787.c83035d8.chunk.js",
     "static/media/babyShower3.jpg": "/website-scarlettes-glam-decor/static/media/babyShower3.c4b2df91df2234017c55.jpg",
     "static/media/proposal2.jpg": "/website-scarlettes-glam-decor/static/media/proposal2.1e4f2b643ce7bdd6f34b.jpg",
@@ -16,6 +16,7 @@
     "static/media/wedding7.jpg": "/website-scarlettes-glam-decor/static/media/wedding7.5d117780b8ccdf60df71.jpg",
     "static/media/picnic2.jpg": "/website-scarlettes-glam-decor/static/media/picnic2.bd5e18190e9f99e23de2.jpg",
     "static/media/corporates5.jpg": "/website-scarlettes-glam-decor/static/media/corporates5.e78d0438ce15ff238433.jpg",
+    "static/media/bg.jpg": "/website-scarlettes-glam-decor/static/media/bg.15f0ba12a1f598898a1a.jpg",
     "static/media/tableSetup5.jpg": "/website-scarlettes-glam-decor/static/media/tableSetup5.15f0ba12a1f598898a1a.jpg",
     "static/media/wedding5.jpg": "/website-scarlettes-glam-decor/static/media/wedding5.96756953f0c82140c7fa.jpg",
     "static/media/tableSetup13.jpg": "/website-scarlettes-glam-decor/static/media/tableSetup13.f9ef0cada64a476fa4a2.jpg",
@@ -90,12 +91,12 @@
     "static/media/whatsappRound.png": "/website-scarlettes-glam-decor/static/media/whatsappRound.8056af9e034597283c63.png",
     "static/media/tiktok.png": "/website-scarlettes-glam-decor/static/media/tiktok.c8a8ce071e55201f5729.png",
     "index.html": "/website-scarlettes-glam-decor/index.html",
-    "main.e66ff6fa.css.map": "/website-scarlettes-glam-decor/static/css/main.e66ff6fa.css.map",
-    "main.55f777a2.js.map": "/website-scarlettes-glam-decor/static/js/main.55f777a2.js.map",
+    "main.645942d5.css.map": "/website-scarlettes-glam-decor/static/css/main.645942d5.css.map",
+    "main.7a721b53.js.map": "/website-scarlettes-glam-decor/static/js/main.7a721b53.js.map",
     "787.c83035d8.chunk.js.map": "/website-scarlettes-glam-decor/static/js/787.c83035d8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e66ff6fa.css",
-    "static/js/main.55f777a2.js"
+    "static/css/main.645942d5.css",
+    "static/js/main.7a721b53.js"
   ]
 }
