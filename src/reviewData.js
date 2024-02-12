@@ -44,7 +44,7 @@ export const reviewData = [
     },
     {
         id: 7,
-        name: 'Lucy Wanjohi',
+        name: 'Lucy',
         reviewYear: 2022,
         color: '#ffb5a7',
         message: 'I was so imporessed, these guys really came through.'
