@@ -47,7 +47,7 @@ export const reviewData = [
         name: 'Lucy',
         reviewYear: 2022,
         color: '#ffb5a7',
-        message: 'I was so imporessed, these guys really came through.'
+        message: 'I was so impressed, these guys really came through.'
     },
     {
         id: 8,
