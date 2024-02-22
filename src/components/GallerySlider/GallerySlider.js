@@ -48,7 +48,7 @@ export default function GallerySlider({ handleDeactivateGallery, picsData, nameO
                 </button>
             </div>
 
-            <img src={onePicture.src} alt={onePicture.alt} />
+            <img src={onePicture.src} alt={onePicture.alt} loading='lazy' />
 
             <p className='imgDetails'>
                 {`${nameOfEvent}: ${eachPicIndex + 1}/${picsData.length}`}
