@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/website-scarlettes-glam-decor/static/css/main.645942d5.css",
-    "main.js": "/website-scarlettes-glam-decor/static/js/main.a8fa0a8f.js",
+    "main.js": "/website-scarlettes-glam-decor/static/js/main.0cdc1486.js",
     "static/js/787.c83035d8.chunk.js": "/website-scarlettes-glam-decor/static/js/787.c83035d8.chunk.js",
     "static/media/babyShower3.jpg": "/website-scarlettes-glam-decor/static/media/babyShower3.c4b2df91df2234017c55.jpg",
     "static/media/proposal2.jpg": "/website-scarlettes-glam-decor/static/media/proposal2.1e4f2b643ce7bdd6f34b.jpg",
@@ -87,16 +87,14 @@
     "static/media/corporates2.jpg": "/website-scarlettes-glam-decor/static/media/corporates2.c7403af4f73b50bd7249.jpg",
     "static/media/babyShower2.jpg": "/website-scarlettes-glam-decor/static/media/babyShower2.d720ef591295747e8331.jpg",
     "static/media/babyShower1.jpg": "/website-scarlettes-glam-decor/static/media/babyShower1.252452a6a36b74b9979c.jpg",
-    "static/media/instagram.png": "/website-scarlettes-glam-decor/static/media/instagram.5aff0ada83e8bd00febc.png",
-    "static/media/whatsappRound.png": "/website-scarlettes-glam-decor/static/media/whatsappRound.8056af9e034597283c63.png",
-    "static/media/tiktok.png": "/website-scarlettes-glam-decor/static/media/tiktok.c8a8ce071e55201f5729.png",
+    "static/media/instagram.png": "/website-scarlettes-glam-decor/static/media/instagram.535176b5abf2ad4e6420.png",
     "index.html": "/website-scarlettes-glam-decor/index.html",
     "main.645942d5.css.map": "/website-scarlettes-glam-decor/static/css/main.645942d5.css.map",
-    "main.a8fa0a8f.js.map": "/website-scarlettes-glam-decor/static/js/main.a8fa0a8f.js.map",
+    "main.0cdc1486.js.map": "/website-scarlettes-glam-decor/static/js/main.0cdc1486.js.map",
     "787.c83035d8.chunk.js.map": "/website-scarlettes-glam-decor/static/js/787.c83035d8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.645942d5.css",
-    "static/js/main.a8fa0a8f.js"
+    "static/js/main.0cdc1486.js"
   ]
 }
