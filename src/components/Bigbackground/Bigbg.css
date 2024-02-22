@@ -1,6 +1,6 @@
 .bigBg {
     height: 91vh;
-    background-image: url('./../../images/bg.jpg');
+    background-image: url('./../../images/table\ setups/tableSetup5.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -13,6 +13,7 @@
     color: rgba(255, 255, 255, 0.8);
     font-size: 2rem;
     width: 99%;
+    z-index: 1;
 }
 
 /* +++++++++++++++++++++++ MEDIA QUERIES +++++++++++++++++++++++ */
