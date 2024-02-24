@@ -27,7 +27,10 @@ export default function ReusableEventCard({ eventBgImage, eventIcon, eventName }
     }
 
     return (
-        <div className='reusableEventCard' style={{ backgroundImage: `url(${eventBgImage})` }}>
+        <div className='reusableEventCard'>
+            <div>
+                <img src={eventBgImage} alt={eventName} loading='lazy' />
+            </div>
             <button className='eventNameAndIcon' onClick={handleActivateGallery}>
                 {eventIcon}
                 <h3>{eventName}</h3>
