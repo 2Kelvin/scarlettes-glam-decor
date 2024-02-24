@@ -7,14 +7,26 @@
 }
 
 .iconMedia {
-    height: 3.5rem;
-    width: 3.5rem;
+    height: 4rem;
+    width: 4rem;
     cursor: pointer;
     transition: transform 0.4s ease-in-out;
 }
 
 .iconMedia:hover {
     transform: translateY(-0.7rem);
+}
+
+.fbIcon {
+    color: #1777f2;
+}
+
+.tiktokIcon {
+    color: black;
+}
+
+.instagramIcon {
+    color: #fa0ad5;
 }
 
 /* +++++++++++++++++++++++ MEDIA QUERIES +++++++++++++++++++++++ */
