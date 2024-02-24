@@ -1,5 +1,5 @@
 import './Bigbg.css';
-import bgPicture from './../../images/table setups/tableSetup5.jpg';
+import bgPicture from './../../images/picnics/picnic3.jpg';
 
 export default function Bigbg() {
     return (

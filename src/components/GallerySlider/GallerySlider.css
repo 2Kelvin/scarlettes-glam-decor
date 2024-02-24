@@ -28,13 +28,10 @@
 }
 
 .gallery .sliderButtons {
-    margin-top: 2rem;
-}
-
-.gallery .sliderButtons {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 2rem;
 }
 
 .gallery .sliderButtons button {
@@ -43,10 +40,17 @@
     border: 1px solid #555;
 }
 
-.gallery img {
-    height: 70%;
-    width: 100%;
+.gallery .imageDiv {
+    padding: 0;
+    margin: 0;
     margin-top: 2rem;
+    border-radius: 1rem;
+    height: 70%;
+}
+
+.gallery .imageDiv img {
+    height: 100%;
+    width: 100%;
     /* great trick to fix regular images from stretching */
     object-fit: cover;
     border-radius: 1rem;
@@ -54,6 +58,7 @@
 
 .gallery .imgDetails {
     text-align: center;
+    margin-top: 1rem;
 }
 
 

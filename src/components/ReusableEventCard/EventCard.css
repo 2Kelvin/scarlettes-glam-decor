@@ -29,7 +29,6 @@
     /* positioning this item horizontally to the center */
     left: 50%;
     transform: translate(-50%);
-    z-index: 10;
 }
 
 .eventNameAndIcon h3 {
