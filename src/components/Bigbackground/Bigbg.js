@@ -1,4 +1,5 @@
 import './Bigbg.css';
+import bgPicture from './../../images/table setups/tableSetup5.jpg'; 
 
 export default function Bigbg() {
     return (
