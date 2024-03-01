@@ -17,7 +17,7 @@ export default function Bigbg() {
                     src={bgPicture}
                     alt='main background'
                     loading='lazy'
-                    // if image is loaded add the 'loadedImg' class to its parent div
+                    // if image is loaded add the 'loadedImg' id to its parent div
                     // which will make the image visible by updating opacity to 1
                     onLoad={() => setImageLoaded(true)}
                 />
