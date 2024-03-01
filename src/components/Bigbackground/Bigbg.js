@@ -9,7 +9,8 @@ export default function Bigbg() {
     return (
         <section className="bigBg">
             <div
-                className={imgLoaded ? 'loadedImg' : 'blurredImgDiv'}
+                className='blurredImgDiv'
+                id={imgLoaded && 'loadedImg'}
                 style={{ backgroundImage: `url(${smallBlurBg})` }}
             >
                 <img

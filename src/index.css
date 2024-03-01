@@ -30,7 +30,7 @@ html {
   animation: pulse 2.5s infinite;
 }
 
-.blurredImgDiv .loadedImg::before {
+#loadedImg::before {
   content: none;
   animation: none;
 }
@@ -56,7 +56,7 @@ html {
   background-position: center;
 }
 
-.blurredImgDiv .loadedImg img {
+#loadedImg img {
   opacity: 1;
 }
 
