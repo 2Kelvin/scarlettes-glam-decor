@@ -35,6 +35,11 @@ html {
   animation: none;
 }
 
+#packageLoadedImg::before {
+  content: none;
+  animation: none;
+}
+
 @keyframes pulse {
   0% {
     background-color: rgba(255, 255, 255, 0);
@@ -57,6 +62,10 @@ html {
 }
 
 #loadedImg img {
+  opacity: 1;
+}
+
+#packageLoadedImg img {
   opacity: 1;
 }
 
