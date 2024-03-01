@@ -4,8 +4,10 @@ import GallerySlider from '../GallerySlider/GallerySlider';
 import { useState } from 'react';
 
 
-export default function ReusableEventCard({ eventBgImage, eventIcon, eventName }) {
+export default function ReusableEventCard({ smallPic, eventBgImage, eventIcon, eventName }) {
     const [showGallery, setShowGAllery] = useState(false);
+    const [loadImg, setLoadImg] = useState(false);
+
     let clickedEventPics;
 
     function handleActivateGallery() {
@@ -27,9 +29,18 @@ export default function ReusableEventCard({ eventBgImage, eventIcon, eventName }
     }
 
     return (
-        <div className='reusableEventCard'>
+        <div
+            className='reusableEventCard blurredImgDiv'
+            style={{ backgroundImage: `url(${smallPic})` }}
+            id={loadImg && 'loadedImg'}
+        >
             <div>
-                <img src={eventBgImage} alt={eventName} loading='lazy' />
+                <img
+                    src={eventBgImage}
+                    alt={eventName}
+                    loading='lazy'
+                    onLoad={() => setLoadImg(true)}
+                />
             </div>
             <button className='eventNameAndIcon' onClick={handleActivateGallery}>
                 {eventIcon}
