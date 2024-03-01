@@ -30,12 +30,7 @@ html {
   animation: pulse 2.5s infinite;
 }
 
-#loadedImg::before {
-  content: none;
-  animation: none;
-}
-
-#packageLoadedImg::before {
+#loadedImg::before, .packageLoadedImg::before  {
   content: none;
   animation: none;
 }
@@ -61,11 +56,7 @@ html {
   background-position: center;
 }
 
-#loadedImg img {
-  opacity: 1;
-}
-
-#packageLoadedImg img {
+#loadedImg img, .packageLoadedImg img {
   opacity: 1;
 }
 
