@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/website-scarlettes-glam-decor/static/css/main.f3ddf91a.css",
-    "main.js": "/website-scarlettes-glam-decor/static/js/main.7b82ef1a.js",
+    "main.js": "/website-scarlettes-glam-decor/static/js/main.fd3a6b39.js",
     "static/js/787.c83035d8.chunk.js": "/website-scarlettes-glam-decor/static/js/787.c83035d8.chunk.js",
     "static/media/babyShower3.jpg": "/website-scarlettes-glam-decor/static/media/babyShower3.c4b2df91df2234017c55.jpg",
     "static/media/proposal2.jpg": "/website-scarlettes-glam-decor/static/media/proposal2.1e4f2b643ce7bdd6f34b.jpg",
@@ -88,11 +88,11 @@
     "static/media/babyShower1.jpg": "/website-scarlettes-glam-decor/static/media/babyShower1.252452a6a36b74b9979c.jpg",
     "index.html": "/website-scarlettes-glam-decor/index.html",
     "main.f3ddf91a.css.map": "/website-scarlettes-glam-decor/static/css/main.f3ddf91a.css.map",
-    "main.7b82ef1a.js.map": "/website-scarlettes-glam-decor/static/js/main.7b82ef1a.js.map",
+    "main.fd3a6b39.js.map": "/website-scarlettes-glam-decor/static/js/main.fd3a6b39.js.map",
     "787.c83035d8.chunk.js.map": "/website-scarlettes-glam-decor/static/js/787.c83035d8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f3ddf91a.css",
-    "static/js/main.7b82ef1a.js"
+    "static/js/main.fd3a6b39.js"
   ]
 }
