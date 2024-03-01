@@ -31,7 +31,7 @@ html {
 }
 
 #loadedImg::before,
-.packageLoadedImg::before {
+#packageLoadedImg::before {
   content: none;
   animation: none;
 }
@@ -58,7 +58,7 @@ html {
 }
 
 #loadedImg>img,
-.packageLoadedImg>img {
+#packageLoadedImg>img {
   opacity: 1;
 }
 
