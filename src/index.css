@@ -66,3 +66,7 @@ html {
   opacity: 0;
   transition: opacity 200ms ease-in-out;
 }
+
+.red {
+  border: 10px solid green;
+}

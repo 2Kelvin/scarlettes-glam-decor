@@ -32,7 +32,7 @@ export default function ReusableEventCard({ smallPic, eventBgImage, eventIcon, e
         <div className='reusableEventCard'>
             <div
                 className='blurredImgDiv'
-                style={{ backgroundImage: `url(${smallPic})` }}
+                style={{ backgroundImage: `url(${smallPic})`, borderRadius: 'inherit', height: 'inherit' }}
                 id={loadImg && 'packageLoadedImg'}
             >
                 <img
